@@ -9,11 +9,10 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-image: url(https://source.unsplash.com/random/?country);
+  background-image: url(https://source.unsplash.com/random/1600x900/?country);
   background-position: center;
-  background-size: 100% 100% auto;
-  background-repeat: no-repeat;
-  background-color: #74cff6;
+  background-size: cover;
+  background-color: #bfcacf;
 }
 
 .center-flex {
@@ -33,20 +32,21 @@ body {
 }
 
 .form h1 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .form input {
-  margin-top: .7rem;
-  padding: .5rem;
+  color: #000;
+  margin-top: 1rem;
+  padding: .8rem;
   border: none;
   outline: none;
   border-radius: 8px;
 }
 
 .form button {
-  margin-top: .7rem;
-  padding: .5rem;
+  margin-top: 1rem;
+  padding: .8rem;
   min-width: 30px;
   margin-left: 8px;
   background-color: #4cbdee;
